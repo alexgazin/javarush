@@ -1,0 +1,21 @@
+package com.javarush.test.level15.lesson12.bonus01;
+
+/**
+ * Created by pr0jector on 17.07.2016.
+ */
+public class Plane implements Flyable
+{
+    int passeger;
+
+    public Plane (int passeger) {
+        this.passeger = passeger;
+    }
+
+    @Override
+    public void fly()
+    {
+
+    }
+}
+
+
